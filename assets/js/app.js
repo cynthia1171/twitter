@@ -63,6 +63,7 @@ btnTweet.addEventListener('click', function() {
 
     //validar que textarea tenga un mensaje y no este vacio
     if (comment.length == 0 || comment == null) {
+        document.getElementById('tweet').disabled = true;
         alert("debes ingresar un mensaje");
         return false;
     }
