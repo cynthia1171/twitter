@@ -1,0 +1,147 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    height: 100%;
+    font-family: 'Arvo', serif;
+}
+
+header {
+    width: 81.9em;
+    height: 50px;
+    background-color: #0FF3D4;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -20px;
+    margin-left: -8px;
+}
+
+header h2 {
+    padding-top: 10px;
+}
+
+.icon-twitter:before {
+    content: "\e902";
+    margin-right: 10px;
+}
+
+#container {
+    width: auto;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#container #info {
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#container #info h2 {
+    padding-left: 30px;
+}
+
+#container #info p {
+    margin-left: 30px;
+}
+
+#container #info hr {
+    background-color: #299c8d;
+    width: 440px;
+    height: 1px;
+    margin-top: 56px;
+    display: block;
+}
+
+#container #info #codigo {
+    color: #299c8d;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#container #box-comment {
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#container #box-comment textarea {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid #299c8d;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 17px;
+}
+
+#container #box-comment textarea:focus {
+    outline: none;
+}
+
+#container #box-comment #tweet {
+    width: 130px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #0FF3D4;
+    border: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+#container #box-comment #tweet:focus {
+    outline: none;
+}
+
+#container #box-comment #tweet:active {
+    background-color: rgb(8, 187, 160);
+}
+
+#container #box-comment #contador {
+    display: inline-block;
+    margin-left: 275px;
+}
+
+#container #box-comment .verde {
+    color: #299c8d;
+}
+
+#container #box-comment .naranjo {
+    color: rgb(245, 167, 65);
+}
+
+#container #box-comment .rojo {
+    color: rgb(255, 42, 5);
+}
+
+#newMessage div {
+    width: 1080px;
+    height: fit-content;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+#newMessage div textarea,
+#newMessage div p {
+    width: 85%;
+    margin-left: 85px;
+    margin-right: 20px;
+    padding-top: 10px;
+    font-size: 17px;
+    border: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#newMessage div textarea:focus {
+    outline: none;
+}
