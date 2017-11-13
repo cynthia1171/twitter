@@ -4,6 +4,7 @@ body {
     font-family: 'Arvo', serif;
 }
 
+/*estilos header*/
 header {
     width: 81.9em;
     height: 50px;
@@ -23,6 +24,7 @@ header h2 {
     margin-right: 10px;
 }
 
+/*estilo div container*/
 #container {
     width: auto;
     height: 100%;
@@ -133,6 +135,7 @@ header h2 {
     border-radius: 5px;
 }
 
+/*estilo div newMessage*/
 #newMessage div textarea,
 #newMessage div p {
     width: 85%;
